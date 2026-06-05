@@ -1,0 +1,5 @@
+requests
+pyyaml
+pyjwt
+flask
+rich

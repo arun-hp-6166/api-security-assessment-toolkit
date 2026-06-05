@@ -1,0 +1,16 @@
+target:
+  base_url: "http://127.0.0.1:80"
+  jwt_token: ""
+
+tests:
+  security_headers: true
+  jwt_analysis: true
+  rate_limit: true
+  openapi_parser: true
+
+openapi:
+  spec_url: "http://127.0.0.1:80/spec.json"
+
+rate_limit:
+  endpoint: "/get"
+  requests: 10
